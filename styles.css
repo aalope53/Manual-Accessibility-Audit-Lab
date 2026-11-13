@@ -16,10 +16,12 @@ a {
   color: #8c1d40;
 }
 
+/* Focus is now visible */
 a:focus,
 button:focus,
 input:focus {
-  outline: none;
+  outline: 3px solid #ffc627;
+  outline-offset: 3px;
 }
 
 .site-header {
